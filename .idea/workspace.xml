@@ -3,13 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
       <config projectName="HelloGTest" targetName="gmock_main" />
-      <config projectName="HelloGTest" targetName="gtest_main" />
-      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="gtest" />
+      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="Line" />
       <config projectName="HelloGTest" targetName="gmock" />
-      <config projectName="leetcode" targetName="Main" />
       <config projectName="leetcode" targetName="run_tests" />
+      <config projectName="leetcode" targetName="Main" />
+      <config projectName="HelloGTest" targetName="gtest_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -36,11 +36,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="006_zigzag_conversion.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gtest/tests/006_zigzag_conversion.cpp">
+      <file leaf-file-name="008_string2integer_atoi.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/008_string2integer_atoi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="-1022">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -84,6 +84,9 @@
         <option value="$PROJECT_DIR$/gtest/tests/004_median_of_two_sorted_array.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/005_longest_palindromic_substr.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/006_zigzag_conversion.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/007_reverse_interger.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/007_reverse_integer.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/008_string2integer_atoi.cpp" />
       </list>
     </option>
   </component>
@@ -93,6 +96,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="width" value="1924" />
@@ -170,24 +174,13 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Google Test.leetcode.zigzag_conversion">
-    <configuration default="false" name="leetcode.add_two_nums" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="add_two_nums" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="leetcode.longest_substr" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="longest_substr" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="leetcode.mddian_of_two_sorted_array" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="mddian_of_two_sorted_array" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="leetcode.longest_palindromic_substr" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="longest_palindromic_substr" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="leetcode.zigzag_conversion" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="zigzag_conversion" TEST_MODE="SUITE_TEST">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gtest/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.leetcode.string2integer_atoi">
+    <configuration default="false" name="leetcode.string2integer_atoi" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="string2integer_atoi" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
@@ -362,31 +355,23 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="run_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="Main" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
-    <list size="8">
+    <configuration default="false" name="run_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Google Test.run_tests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.add_two_nums" />
-      <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.longest_substr" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.leetcode.mddian_of_two_sorted_array" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.leetcode.longest_palindromic_substr" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.leetcode.zigzag_conversion" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Google Test.run_tests" />
+      <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.string2integer_atoi" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.leetcode.zigzag_conversion" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.leetcode.longest_palindromic_substr" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.leetcode.mddian_of_two_sorted_array" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.longest_substr" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.add_two_nums" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Google Test.leetcode.string2integer_atoi" />
       </list>
     </recent_temporary>
   </component>
@@ -404,44 +389,44 @@
       <workItem from="1488042957799" duration="76000" />
       <workItem from="1488043055011" duration="6059000" />
       <workItem from="1488052062329" duration="16861000" />
-      <workItem from="1488121926154" duration="445000" />
+      <workItem from="1488121926154" duration="6475000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 07m 44s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 43m 06s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 07m 59s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 43m 35s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 09m 28s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 45m 57s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 10m 35s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 46m 45s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 21m 54s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 49m 56s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 22m 36s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 50m 30s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_longest_palindromic_substr - 2017.02.25 at 19h 24m 13s.xml">
-      <configuration name="leetcode.longest_palindromic_substr" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 51m 51s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_zigzag_conversion - 2017.02.25 at 20h 40m 55s.xml">
-      <configuration name="leetcode.zigzag_conversion" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 52m 38s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_zigzag_conversion - 2017.02.25 at 20h 43m 45s.xml">
-      <configuration name="leetcode.zigzag_conversion" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 54m 06s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_zigzag_conversion - 2017.02.25 at 20h 45m 29s.xml">
-      <configuration name="leetcode.zigzag_conversion" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_string2integer_atoi - 2017.02.26 at 11h 54m 51s.xml">
+      <configuration name="leetcode.string2integer_atoi" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24126000" />
+    <option name="totallyTimeSpent" value="30156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,24 +441,24 @@
     <frame x="-2" y="0" width="1924" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19652265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17492098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +489,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeGoogleTestRunConfigurationType">
@@ -526,7 +511,7 @@
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -570,7 +555,7 @@
         <state relative-caret-position="200">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
-            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -596,7 +581,7 @@
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,6 +605,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -634,6 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,6 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,6 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,6 +662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,6 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,22 +710,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/005_longest_palindromic_substr.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
-            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,18 +744,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/007_reverse_interger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="197">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/006_zigzag_conversion.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="-300">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/007_reverse_integer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+            <marker date="1488123906859" expanded="true" signature="989:1243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/008_string2integer_atoi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1022">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>

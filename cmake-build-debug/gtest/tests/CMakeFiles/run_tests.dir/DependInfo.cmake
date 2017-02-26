@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/Workspace/Clion/leetcode/gtest/tests/004_median_of_two_sorted_array.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/004_median_of_two_sorted_array.o"
   "/root/Workspace/Clion/leetcode/gtest/tests/005_longest_palindromic_substr.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/005_longest_palindromic_substr.o"
   "/root/Workspace/Clion/leetcode/gtest/tests/006_zigzag_conversion.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.o"
+  "/root/Workspace/Clion/leetcode/gtest/tests/007_reverse_integer.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.o"
+  "/root/Workspace/Clion/leetcode/gtest/tests/008_string2integer_atoi.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o"
   "/root/Workspace/Clion/leetcode/gtest/tests/main.cpp" "/root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests/CMakeFiles/run_tests.dir/main.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

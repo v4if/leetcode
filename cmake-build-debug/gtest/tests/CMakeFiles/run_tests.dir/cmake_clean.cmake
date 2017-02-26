@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/run_tests.dir/004_median_of_two_sorted_array.o"
   "CMakeFiles/run_tests.dir/005_longest_palindromic_substr.o"
   "CMakeFiles/run_tests.dir/006_zigzag_conversion.o"
+  "CMakeFiles/run_tests.dir/007_reverse_integer.o"
+  "CMakeFiles/run_tests.dir/008_string2integer_atoi.o"
   "run_tests.pdb"
   "run_tests"
 )

@@ -425,6 +425,12 @@
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/006_zigzag_conversion.cpp">
 			<Option target="run_tests"/>
 		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/007_reverse_integer.cpp">
+			<Option target="run_tests"/>
+		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/008_string2integer_atoi.cpp">
+			<Option target="run_tests"/>
+		</Unit>
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/main.cpp">
 			<Option target="run_tests"/>
 		</Unit>

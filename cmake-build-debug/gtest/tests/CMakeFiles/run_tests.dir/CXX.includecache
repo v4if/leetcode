@@ -322,6 +322,20 @@ iostream
 gtest/gtest.h
 -
 
+/root/Workspace/Clion/leetcode/gtest/tests/007_reverse_integer.cpp
+iostream
+-
+vector
+-
+gtest/gtest.h
+-
+
+/root/Workspace/Clion/leetcode/gtest/tests/008_string2integer_atoi.cpp
+iostream
+-
+gtest/gtest.h
+-
+
 /root/Workspace/Clion/leetcode/gtest/tests/main.cpp
 gtest/gtest.h
 /root/Workspace/Clion/leetcode/gtest/tests/gtest/gtest.h

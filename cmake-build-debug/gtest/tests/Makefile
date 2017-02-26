@@ -260,6 +260,36 @@ run_tests/fast:
 .PHONY : 006_zigzag_conversion.s
 
 # target to build an object file
+007_reverse_integer.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.o
+.PHONY : 007_reverse_integer.o
+
+# target to preprocess a source file
+007_reverse_integer.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.i
+.PHONY : 007_reverse_integer.i
+
+# target to generate assembly for a file
+007_reverse_integer.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.s
+.PHONY : 007_reverse_integer.s
+
+# target to build an object file
+008_string2integer_atoi.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o
+.PHONY : 008_string2integer_atoi.o
+
+# target to preprocess a source file
+008_string2integer_atoi.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.i
+.PHONY : 008_string2integer_atoi.i
+
+# target to generate assembly for a file
+008_string2integer_atoi.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.s
+.PHONY : 008_string2integer_atoi.s
+
+# target to build an object file
 main.o:
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/main.o
 .PHONY : main.o
@@ -305,6 +335,12 @@ help:
 	@echo "... 006_zigzag_conversion.o"
 	@echo "... 006_zigzag_conversion.i"
 	@echo "... 006_zigzag_conversion.s"
+	@echo "... 007_reverse_integer.o"
+	@echo "... 007_reverse_integer.i"
+	@echo "... 007_reverse_integer.s"
+	@echo "... 008_string2integer_atoi.o"
+	@echo "... 008_string2integer_atoi.i"
+	@echo "... 008_string2integer_atoi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

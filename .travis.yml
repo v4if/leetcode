@@ -1,0 +1,30 @@
+language: cpp
+
+install:
+  - gem install coveralls-lcov
+
+addons:
+  apt:
+    packages:
+      - cmake
+    sources:
+      - kalakris-cmake
+
+compiler:
+  - gcc
+
+before_install:
+  - pip install --user cpp-coveralls
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - cd gtest/tests
+  - ./run_tests
+  
+after_success:
+  - cd -
+  - cd src/CMakeFiles/src.dir
+  - coveralls

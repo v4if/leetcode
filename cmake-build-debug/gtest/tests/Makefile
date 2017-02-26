@@ -245,6 +245,21 @@ run_tests/fast:
 .PHONY : 005_longest_palindromic_substr.s
 
 # target to build an object file
+006_zigzag_conversion.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.o
+.PHONY : 006_zigzag_conversion.o
+
+# target to preprocess a source file
+006_zigzag_conversion.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.i
+.PHONY : 006_zigzag_conversion.i
+
+# target to generate assembly for a file
+006_zigzag_conversion.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.s
+.PHONY : 006_zigzag_conversion.s
+
+# target to build an object file
 main.o:
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/main.o
 .PHONY : main.o
@@ -287,6 +302,9 @@ help:
 	@echo "... 005_longest_palindromic_substr.o"
 	@echo "... 005_longest_palindromic_substr.i"
 	@echo "... 005_longest_palindromic_substr.s"
+	@echo "... 006_zigzag_conversion.o"
+	@echo "... 006_zigzag_conversion.i"
+	@echo "... 006_zigzag_conversion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

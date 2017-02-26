@@ -39,8 +39,8 @@
       <file leaf-file-name="006_zigzag_conversion.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gtest/tests/006_zigzag_conversion.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -404,7 +404,7 @@
       <workItem from="1488042957799" duration="76000" />
       <workItem from="1488043055011" duration="6059000" />
       <workItem from="1488052062329" duration="16861000" />
-      <workItem from="1488121926154" duration="357000" />
+      <workItem from="1488121926154" duration="445000" />
     </task>
     <servers />
   </component>
@@ -441,7 +441,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24038000" />
+    <option name="totallyTimeSpent" value="24126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/006_zigzag_conversion.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>

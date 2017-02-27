@@ -290,6 +290,36 @@ run_tests/fast:
 .PHONY : 008_string2integer_atoi.s
 
 # target to build an object file
+009_palindrome_number.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o
+.PHONY : 009_palindrome_number.o
+
+# target to preprocess a source file
+009_palindrome_number.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.i
+.PHONY : 009_palindrome_number.i
+
+# target to generate assembly for a file
+009_palindrome_number.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.s
+.PHONY : 009_palindrome_number.s
+
+# target to build an object file
+010_regular_expression_matching.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o
+.PHONY : 010_regular_expression_matching.o
+
+# target to preprocess a source file
+010_regular_expression_matching.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.i
+.PHONY : 010_regular_expression_matching.i
+
+# target to generate assembly for a file
+010_regular_expression_matching.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.s
+.PHONY : 010_regular_expression_matching.s
+
+# target to build an object file
 main.o:
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/main.o
 .PHONY : main.o
@@ -341,6 +371,12 @@ help:
 	@echo "... 008_string2integer_atoi.o"
 	@echo "... 008_string2integer_atoi.i"
 	@echo "... 008_string2integer_atoi.s"
+	@echo "... 009_palindrome_number.o"
+	@echo "... 009_palindrome_number.i"
+	@echo "... 009_palindrome_number.s"
+	@echo "... 010_regular_expression_matching.o"
+	@echo "... 010_regular_expression_matching.i"
+	@echo "... 010_regular_expression_matching.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

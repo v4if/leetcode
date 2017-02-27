@@ -336,6 +336,18 @@ iostream
 gtest/gtest.h
 -
 
+/root/Workspace/Clion/leetcode/gtest/tests/009_palindrome_number.cpp
+iostream
+-
+gtest/gtest.h
+-
+
+/root/Workspace/Clion/leetcode/gtest/tests/010_regular_expression_matching.cpp
+iostream
+-
+gtest/gtest.h
+-
+
 /root/Workspace/Clion/leetcode/gtest/tests/main.cpp
 gtest/gtest.h
 /root/Workspace/Clion/leetcode/gtest/tests/gtest/gtest.h

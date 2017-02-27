@@ -273,6 +273,54 @@ gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o.provides: gtest/t
 gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o
 
 
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o: gtest/tests/CMakeFiles/run_tests.dir/flags.make
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o: ../gtest/tests/009_palindrome_number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/009_palindrome_number.o -c /root/Workspace/Clion/leetcode/gtest/tests/009_palindrome_number.cpp
+
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/009_palindrome_number.i"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspace/Clion/leetcode/gtest/tests/009_palindrome_number.cpp > CMakeFiles/run_tests.dir/009_palindrome_number.i
+
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/009_palindrome_number.s"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspace/Clion/leetcode/gtest/tests/009_palindrome_number.cpp -o CMakeFiles/run_tests.dir/009_palindrome_number.s
+
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.requires:
+
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.requires
+
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.provides: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.requires
+	$(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.provides.build
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.provides
+
+gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o
+
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o: gtest/tests/CMakeFiles/run_tests.dir/flags.make
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o: ../gtest/tests/010_regular_expression_matching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/010_regular_expression_matching.o -c /root/Workspace/Clion/leetcode/gtest/tests/010_regular_expression_matching.cpp
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/010_regular_expression_matching.i"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspace/Clion/leetcode/gtest/tests/010_regular_expression_matching.cpp > CMakeFiles/run_tests.dir/010_regular_expression_matching.i
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/010_regular_expression_matching.s"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspace/Clion/leetcode/gtest/tests/010_regular_expression_matching.cpp -o CMakeFiles/run_tests.dir/010_regular_expression_matching.s
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.requires:
+
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.requires
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.provides: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.requires
+	$(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.provides.build
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.provides
+
+gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o
+
+
 # Object files for target run_tests
 run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/main.o" \
@@ -283,7 +331,9 @@ run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/005_longest_palindromic_substr.o" \
 "CMakeFiles/run_tests.dir/006_zigzag_conversion.o" \
 "CMakeFiles/run_tests.dir/007_reverse_integer.o" \
-"CMakeFiles/run_tests.dir/008_string2integer_atoi.o"
+"CMakeFiles/run_tests.dir/008_string2integer_atoi.o" \
+"CMakeFiles/run_tests.dir/009_palindrome_number.o" \
+"CMakeFiles/run_tests.dir/010_regular_expression_matching.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
@@ -297,13 +347,15 @@ gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/005_longest_palindro
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o
+gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o
+gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/build.make
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest.a
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest_main.a
 gtest/tests/run_tests: src/libMain.a
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest.a
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable run_tests"
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -320,6 +372,8 @@ gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/006_zigzag_conversion.o.requires
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/007_reverse_integer.o.requires
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_atoi.o.requires
+gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.requires
+gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.requires
 
 .PHONY : gtest/tests/CMakeFiles/run_tests.dir/requires
 

@@ -92,6 +92,12 @@
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/008_string2integer_atoi.cpp">
 			<Option target="run_tests"/>
 		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/009_palindrome_number.cpp">
+			<Option target="run_tests"/>
+		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/010_regular_expression_matching.cpp">
+			<Option target="run_tests"/>
+		</Unit>
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/main.cpp">
 			<Option target="run_tests"/>
 		</Unit>

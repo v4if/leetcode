@@ -112,7 +112,7 @@ public:
 
 class Solution_Right_Answer {
 public:
-    bool matchFirst(const char *s, const char *p){
+    bool match_first(const char *s, const char *p){
         return (*p == *s || (*p == '.' && *s != '\0'));
     }
 
@@ -120,12 +120,12 @@ public:
         if (*p == '\0') return *s == '\0';	//empty
 
         if (*(p + 1) != '*') {//without *
-            if(!matchFirst(s,p)) return false;
+            if(!match_first(s,p)) return false;
             return isMatch(s + 1, p + 1);
         } else { //next: with a *
             if(isMatch(s, p + 2)) return true;    //try the length of 0
 
-            while ( matchFirst(s, p) )       //try all possible lengths
+            while ( match_first(s, p) )       //try all possible lengths
                 if (isMatch(++s, p + 2)) return true;
 
             return false;
@@ -139,7 +139,7 @@ public:
  * */
 class Solution {
 public:
-    bool matchFirst(string s, string p) {
+    bool match_first(string s, string p) {
         if (s.empty()) return false;
 
         return (p.at(0) == '.' || s.at(0) == p.at(0));
@@ -150,12 +150,12 @@ public:
         if (p.empty()) return s.empty();
 
         if (p.length() < 2 || p.at(1) != '*') {
-            if (!matchFirst(s, p)) return false;
+            if (!match_first(s, p)) return false;
             return isMatch(s.substr(1, s.length() - 1), p.substr(1, p.length() - 1));
         } else {
             if (isMatch(s, p.length() > 2 ? p.substr(2, p.length() - 2) : "")) return true;
 
-            while (matchFirst(s, p)) {
+            while (match_first(s, p)) {
                 if (isMatch(s.substr(1, s.length() - 1), p.length() > 2 ? p.substr(2, p.length() - 2) : "")) return true;
                 s = s.length() > 1 ? s.substr(1, s.length() - 1) : "";
             }

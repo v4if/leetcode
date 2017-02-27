@@ -3,13 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
       <config projectName="HelloGTest" targetName="gmock_main" />
-      <config projectName="HelloGTest" targetName="gtest_main" />
-      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="gtest" />
+      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="Line" />
       <config projectName="HelloGTest" targetName="gmock" />
-      <config projectName="leetcode" targetName="Main" />
       <config projectName="leetcode" targetName="run_tests" />
+      <config projectName="leetcode" targetName="Main" />
+      <config projectName="HelloGTest" targetName="gtest_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -39,11 +39,71 @@
       <file leaf-file-name="010_regular_expression_matching.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="167" column="52" lean-forward="true" selection-start-line="167" selection-start-column="52" selection-end-line="167" selection-end-column="52" />
+            <state relative-caret-position="293">
+              <caret line="153" column="85" lean-forward="true" selection-start-line="153" selection-start-column="85" selection-end-line="153" selection-end-column="85" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="001_two_sum.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002_add_two_nums.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-720">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003_longest_substr.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/003_longest_substr.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="004_median_of_two_sorted_array.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/004_median_of_two_sorted_array.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="011_container_with_most_water.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,10 +114,12 @@
     <findStrings>
       <find>size</find>
       <find>cnt</find>
+      <find>matchFirst</find>
     </findStrings>
     <replaceStrings>
       <replace>cnt</replace>
       <replace>half</replace>
+      <replace>match_first</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -88,6 +150,7 @@
         <option value="$PROJECT_DIR$/gtest/tests/007_reverse_integer.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/008_string2integer_atoi.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/009_palindrome_number.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp" />
       </list>
     </option>
@@ -404,14 +467,11 @@
       <workItem from="1488043055011" duration="6059000" />
       <workItem from="1488052062329" duration="16861000" />
       <workItem from="1488121926154" duration="23228000" />
-      <workItem from="1488204506715" duration="7163000" />
+      <workItem from="1488204506715" duration="8516000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 45m 31s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 46m 16s.xml">
       <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -439,9 +499,12 @@
     <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 58m 17s.xml">
       <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 11h 15m 28s.xml">
+      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54072000" />
+    <option name="totallyTimeSpent" value="55425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,7 +517,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17492098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -462,7 +525,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20641711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -571,6 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,6 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -615,6 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,6 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,30 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/007_reverse_interger.cpp" />
-    <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/lib/gtest/googletest/src/gtest.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -784,26 +828,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/004_median_of_two_sorted_array.cpp">
+    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="220">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/003_longest_substr.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/004_median_of_two_sorted_array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="167" column="52" lean-forward="true" selection-start-line="167" selection-start-column="52" selection-end-line="167" selection-end-column="52" />
+        <state relative-caret-position="293">
+          <caret line="153" column="85" lean-forward="true" selection-start-line="153" selection-start-column="85" selection-end-line="153" selection-end-column="85" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>

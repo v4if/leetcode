@@ -320,6 +320,21 @@ run_tests/fast:
 .PHONY : 010_regular_expression_matching.s
 
 # target to build an object file
+011_container_with_most_water.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o
+.PHONY : 011_container_with_most_water.o
+
+# target to preprocess a source file
+011_container_with_most_water.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.i
+.PHONY : 011_container_with_most_water.i
+
+# target to generate assembly for a file
+011_container_with_most_water.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.s
+.PHONY : 011_container_with_most_water.s
+
+# target to build an object file
 main.o:
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/main.o
 .PHONY : main.o
@@ -377,6 +392,9 @@ help:
 	@echo "... 010_regular_expression_matching.o"
 	@echo "... 010_regular_expression_matching.i"
 	@echo "... 010_regular_expression_matching.s"
+	@echo "... 011_container_with_most_water.o"
+	@echo "... 011_container_with_most_water.i"
+	@echo "... 011_container_with_most_water.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

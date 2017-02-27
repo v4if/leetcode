@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/run_tests.dir/008_string2integer_atoi.o"
   "CMakeFiles/run_tests.dir/009_palindrome_number.o"
   "CMakeFiles/run_tests.dir/010_regular_expression_matching.o"
+  "CMakeFiles/run_tests.dir/011_container_with_most_water.o"
   "run_tests.pdb"
   "run_tests"
 )

@@ -335,6 +335,36 @@ run_tests/fast:
 .PHONY : 011_container_with_most_water.s
 
 # target to build an object file
+012_integer_to_roman.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o
+.PHONY : 012_integer_to_roman.o
+
+# target to preprocess a source file
+012_integer_to_roman.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.i
+.PHONY : 012_integer_to_roman.i
+
+# target to generate assembly for a file
+012_integer_to_roman.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.s
+.PHONY : 012_integer_to_roman.s
+
+# target to build an object file
+013_roman_to_integer.o:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o
+.PHONY : 013_roman_to_integer.o
+
+# target to preprocess a source file
+013_roman_to_integer.i:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.i
+.PHONY : 013_roman_to_integer.i
+
+# target to generate assembly for a file
+013_roman_to_integer.s:
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.s
+.PHONY : 013_roman_to_integer.s
+
+# target to build an object file
 main.o:
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug && $(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/main.o
 .PHONY : main.o
@@ -395,6 +425,12 @@ help:
 	@echo "... 011_container_with_most_water.o"
 	@echo "... 011_container_with_most_water.i"
 	@echo "... 011_container_with_most_water.s"
+	@echo "... 012_integer_to_roman.o"
+	@echo "... 012_integer_to_roman.i"
+	@echo "... 012_integer_to_roman.s"
+	@echo "... 013_roman_to_integer.o"
+	@echo "... 013_roman_to_integer.i"
+	@echo "... 013_roman_to_integer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

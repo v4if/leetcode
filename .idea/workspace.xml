@@ -3,13 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
       <config projectName="HelloGTest" targetName="gmock_main" />
-      <config projectName="HelloGTest" targetName="gtest_main" />
-      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="gtest" />
+      <config projectName="HelloGTest" targetName="run_tests" />
       <config projectName="HelloGTest" targetName="Line" />
       <config projectName="HelloGTest" targetName="gmock" />
-      <config projectName="leetcode" targetName="Main" />
       <config projectName="leetcode" targetName="run_tests" />
+      <config projectName="leetcode" targetName="Main" />
+      <config projectName="HelloGTest" targetName="gtest_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3320">
-              <caret line="166" column="45" lean-forward="true" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
+              <caret line="166" column="45" lean-forward="false" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
       <file leaf-file-name="001_two_sum.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="-174">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="002_add_two_nums.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="-768">
               <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
@@ -88,12 +88,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="011_container_with_most_water.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="011_container_with_most_water.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="860">
+              <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="012_integer_to_roman.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/012_integer_to_roman.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="013_roman_to_integer.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gtest/tests/013_roman_to_integer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="e#37#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +133,8 @@
       <file leaf-file-name="template.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="80">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -162,6 +184,8 @@
         <option value="$PROJECT_DIR$/gtest/tests/009_palindrome_number.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp" />
         <option value="$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/012_integer_to_roman.cpp" />
+        <option value="$PROJECT_DIR$/gtest/tests/013_roman_to_integer.cpp" />
       </list>
     </option>
   </component>
@@ -254,15 +278,7 @@
       <recent name="$PROJECT_DIR$/gtest/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.leetcode.container_with_most_water">
-    <configuration default="false" name="leetcode.string2integer_atoi" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="string2integer_atoi" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="leetcode.palindrome_number" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="palindrome_number" TEST_MODE="SUITE_TEST">
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Google Test.leetcode.roman_to_integer">
     <configuration default="false" name="leetcode.regular_expression_matching" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="regular_expression_matching" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -272,6 +288,14 @@
       <method />
     </configuration>
     <configuration default="false" name="leetcode.container_with_most_water" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="container_with_most_water" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="leetcode.integer_to_roman" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="integer_to_roman" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="leetcode.roman_to_integer" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="run_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="run_tests" TEST_CLASS="leetcode" TEST_METHOD="roman_to_integer" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
@@ -458,19 +482,19 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       <item index="2" class="java.lang.String" itemvalue="Google Test.run_tests" />
-      <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.string2integer_atoi" />
-      <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.palindrome_number" />
-      <item index="5" class="java.lang.String" itemvalue="Google Test.leetcode.regular_expression_matching" />
-      <item index="6" class="java.lang.String" itemvalue="Google Test.leetcode.template" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.leetcode.container_with_most_water" />
+      <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.regular_expression_matching" />
+      <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.template" />
+      <item index="5" class="java.lang.String" itemvalue="Google Test.leetcode.container_with_most_water" />
+      <item index="6" class="java.lang.String" itemvalue="Google Test.leetcode.integer_to_roman" />
+      <item index="7" class="java.lang.String" itemvalue="Google Test.leetcode.roman_to_integer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.leetcode.container_with_most_water" />
-        <item index="1" class="java.lang.String" itemvalue="Google Test.leetcode.template" />
-        <item index="2" class="java.lang.String" itemvalue="Google Test.leetcode.regular_expression_matching" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.palindrome_number" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.string2integer_atoi" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.leetcode.roman_to_integer" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.leetcode.integer_to_roman" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.leetcode.container_with_most_water" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.leetcode.template" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.leetcode.regular_expression_matching" />
       </list>
     </recent_temporary>
   </component>
@@ -491,44 +515,44 @@
       <workItem from="1488121926154" duration="23228000" />
       <workItem from="1488204506715" duration="8516000" />
       <workItem from="1488224668776" duration="48000" />
-      <workItem from="1488846816858" duration="1284000" />
+      <workItem from="1488846816858" duration="8585000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="leetcode_container_with_most_water - 2017.03.06 at 19h 52m 32s.xml">
-      <configuration name="leetcode.container_with_most_water" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_integer_to_roman - 2017.03.06 at 20h 58m 21s.xml">
+      <configuration name="leetcode.integer_to_roman" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_container_with_most_water - 2017.03.06 at 19h 53m 06s.xml">
-      <configuration name="leetcode.container_with_most_water" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_integer_to_roman - 2017.03.06 at 20h 59m 31s.xml">
+      <configuration name="leetcode.integer_to_roman" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 50m 35s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_integer_to_roman - 2017.03.06 at 21h 00m 50s.xml">
+      <configuration name="leetcode.integer_to_roman" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 51m 46s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 21h 42m 15s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 52m 33s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 21h 43m 09s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 10h 58m 17s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 21h 45m 33s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 11h 15m 28s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 21h 45m 53s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 14h 44m 59s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 21h 59m 37s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_regular_expression_matching - 2017.02.27 at 14h 45m 08s.xml">
-      <configuration name="leetcode.regular_expression_matching" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 22h 00m 51s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="leetcode_template - 2017.03.06 at 19h 51m 31s.xml">
-      <configuration name="leetcode.template" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="leetcode_roman_to_integer - 2017.03.06 at 22h 02m 01s.xml">
+      <configuration name="leetcode.roman_to_integer" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56757000" />
+    <option name="totallyTimeSpent" value="64058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +573,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20641711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197861" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -595,30 +619,26 @@
           <line>21</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/gtest/tests/012_integer_to_roman.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/gtest/tests/013_roman_to_integer.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="36" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="hardRoman" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -904,30 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/003_longest_substr.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -947,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/gtest/tests/010_regular_expression_matching.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3320">
-          <caret line="166" column="45" lean-forward="true" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
+          <caret line="166" column="45" lean-forward="false" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
           </folding>
@@ -962,11 +958,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gtest/tests/011_container_with_most_water.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="860">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/001_two_sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/002_add_two_nums.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/012_integer_to_roman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/tests/013_roman_to_integer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/run_tests.dir/009_palindrome_number.o"
   "CMakeFiles/run_tests.dir/010_regular_expression_matching.o"
   "CMakeFiles/run_tests.dir/011_container_with_most_water.o"
+  "CMakeFiles/run_tests.dir/012_integer_to_roman.o"
+  "CMakeFiles/run_tests.dir/013_roman_to_integer.o"
   "run_tests.pdb"
   "run_tests"
 )

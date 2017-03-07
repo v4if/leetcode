@@ -345,6 +345,54 @@ gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o.provides: g
 gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o
 
 
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o: gtest/tests/CMakeFiles/run_tests.dir/flags.make
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o: ../gtest/tests/012_integer_to_roman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/012_integer_to_roman.o -c /root/Workspace/Clion/leetcode/gtest/tests/012_integer_to_roman.cpp
+
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/012_integer_to_roman.i"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspace/Clion/leetcode/gtest/tests/012_integer_to_roman.cpp > CMakeFiles/run_tests.dir/012_integer_to_roman.i
+
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/012_integer_to_roman.s"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspace/Clion/leetcode/gtest/tests/012_integer_to_roman.cpp -o CMakeFiles/run_tests.dir/012_integer_to_roman.s
+
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.requires:
+
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.requires
+
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.provides: gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.requires
+	$(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.provides.build
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.provides
+
+gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o
+
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o: gtest/tests/CMakeFiles/run_tests.dir/flags.make
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o: ../gtest/tests/013_roman_to_integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/013_roman_to_integer.o -c /root/Workspace/Clion/leetcode/gtest/tests/013_roman_to_integer.cpp
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/013_roman_to_integer.i"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspace/Clion/leetcode/gtest/tests/013_roman_to_integer.cpp > CMakeFiles/run_tests.dir/013_roman_to_integer.i
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/013_roman_to_integer.s"
+	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspace/Clion/leetcode/gtest/tests/013_roman_to_integer.cpp -o CMakeFiles/run_tests.dir/013_roman_to_integer.s
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.requires:
+
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.requires
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.provides: gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.requires
+	$(MAKE) -f gtest/tests/CMakeFiles/run_tests.dir/build.make gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.provides.build
+.PHONY : gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.provides
+
+gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.provides.build: gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o
+
+
 # Object files for target run_tests
 run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/main.o" \
@@ -358,7 +406,9 @@ run_tests_OBJECTS = \
 "CMakeFiles/run_tests.dir/008_string2integer_atoi.o" \
 "CMakeFiles/run_tests.dir/009_palindrome_number.o" \
 "CMakeFiles/run_tests.dir/010_regular_expression_matching.o" \
-"CMakeFiles/run_tests.dir/011_container_with_most_water.o"
+"CMakeFiles/run_tests.dir/011_container_with_most_water.o" \
+"CMakeFiles/run_tests.dir/012_integer_to_roman.o" \
+"CMakeFiles/run_tests.dir/013_roman_to_integer.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
@@ -375,13 +425,15 @@ gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/008_string2integer_a
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o
+gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o
+gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/build.make
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest.a
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest_main.a
 gtest/tests/run_tests: src/libMain.a
 gtest/tests/run_tests: gtest/lib/gtest/googlemock/gtest/libgtest.a
 gtest/tests/run_tests: gtest/tests/CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspace/Clion/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable run_tests"
 	cd /root/Workspace/Clion/leetcode/cmake-build-debug/gtest/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -401,6 +453,8 @@ gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/009_palindrome_number.o.requires
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/010_regular_expression_matching.o.requires
 gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/011_container_with_most_water.o.requires
+gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/012_integer_to_roman.o.requires
+gtest/tests/CMakeFiles/run_tests.dir/requires: gtest/tests/CMakeFiles/run_tests.dir/013_roman_to_integer.o.requires
 
 .PHONY : gtest/tests/CMakeFiles/run_tests.dir/requires
 

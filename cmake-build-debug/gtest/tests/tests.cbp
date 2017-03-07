@@ -101,6 +101,12 @@
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/011_container_with_most_water.cpp">
 			<Option target="run_tests"/>
 		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/012_integer_to_roman.cpp">
+			<Option target="run_tests"/>
+		</Unit>
+		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/013_roman_to_integer.cpp">
+			<Option target="run_tests"/>
+		</Unit>
 		<Unit filename="/root/Workspace/Clion/leetcode/gtest/tests/main.cpp">
 			<Option target="run_tests"/>
 		</Unit>

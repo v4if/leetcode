@@ -14,6 +14,8 @@ public:
     }
 };
 
-TEST(leetcode, 3sum) {
-    EXPECT_EQ(1, 1);
+TEST(leetcode, _3sum) {
+    int myints[] = {32,71,12,45,26,80,53,33};
+    std::vector<int> myvector (myints, myints+8);
+
 }

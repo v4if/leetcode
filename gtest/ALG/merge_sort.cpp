@@ -67,6 +67,9 @@ TEST(ALG, reversion_pair) {
     int samples[] = {7, 3, 1, 2, 5, 2};
     int expect[] = {1, 2, 2, 3, 5, 7};
 
+//    begin, end
+    vector<int> array2Vector(samples, samples + 6);
+
     int i = 0,
         n = sizeof(samples) / sizeof(int);
 //    sample传参过去就是指针，只能获取指针的长度

@@ -59,7 +59,7 @@ TEST(leetcode, zigzag_conversion) {
     string str;
     str.push_back('c');
     str.append("hello world");
-    cout << str << endl;
+    // cout << str << endl;
 
     EXPECT_EQ("PAHNAPLSIIGYIR", Solution().convert("PAYPALISHIRING", 3));
 }

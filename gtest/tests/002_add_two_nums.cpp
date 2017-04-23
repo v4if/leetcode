@@ -62,7 +62,7 @@ TEST(leetcode, add_two_nums) {
 //    EXPECT_EQ(&expect, Solution().addTwoNumbers(&sample1, &sample2));
     ListNode *result = Solution().addTwoNumbers(&sample1, &sample2);
     while(result != NULL) {
-        cout << result->val << endl;
+        // cout << result->val << endl;
         result = result->next;
     }
 

@@ -48,7 +48,7 @@ public:
 };
 
 TEST(leetcode, reverse_integer) {
-    cout << -123 % 10 << endl;
+    // cout << -123 % 10 << endl;
     EXPECT_EQ(321, Solution().reverse(123));
     EXPECT_EQ(-123, Solution().reverse(-321));
 }

@@ -3,7 +3,7 @@ project(leetcode)
 
 #TODO: Make two seperate builds? One without code coverage
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 --coverage")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 --coverage -std=c++11")
 
 include_directories(src)
 

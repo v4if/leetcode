@@ -40,7 +40,7 @@ public:
             m = 0;
 
         while (i <= mid && j <= end) {
-            if (nums[i] < nums[j]) {
+            if (nums[i] <= nums[j]) {
                 temp[k++] = nums[i++];
             } else {
                 temp[k++] = nums[j++];
@@ -63,7 +63,7 @@ public:
     }
 };
 
-TEST(ALG, reversion_pair) {
+TEST(ALG, merge_sort) {
     int samples[] = {7, 3, 1, 2, 5, 2};
     int expect[] = {1, 2, 2, 3, 5, 7};
 

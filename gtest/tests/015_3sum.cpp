@@ -58,7 +58,7 @@ public:
                     ans.push_back(triplet);
 
 //                    处理相同元素
-                    while (front < end && nums[front] == triplet[0]) front++;
+                    while (front < end && nums[front] == triplet[1]) front++;
                     while (front < end && nums[end] == triplet[2]) end--;
                 }
             }
@@ -75,10 +75,20 @@ TEST(leetcode, _3sum) {
     vector<vector<int>> result;
     result = Solution().threeSum(myvector);
 
+    vector<vector<int>> expect;
+    vector<int> triplet(3, 0);
+    triplet[0] = -1;
+    triplet[1] = -1;
+    triplet[2] = 2;
+    expect.push_back(triplet);
+    triplet[0] = -1;
+    triplet[1] = 0;
+    triplet[2] = 1;
+    expect.push_back(triplet);
+
     for (int i = 0; i < result.size(); ++i) {
         for (int j = 0; j < result[i].size(); ++j) {
-            cout << result[i][j] << "  " << endl;
+            EXPECT_EQ(expect[i][j], result[i][j]);
         }
-        cout << endl;
     }
 }

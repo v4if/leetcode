@@ -6,3 +6,5 @@
 
 ## GDB Tips
 p *nums@6 //打印数组
+
+define hook-stop //调试脚本 end结束

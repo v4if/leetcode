@@ -85,5 +85,5 @@ public:
 
 TEST(leetcode, valid_parentheses) {
 //    二进制比较
-    EXPECT_EQ(false, Solution().isValid("]"));
+    EXPECT_FALSE(Solution().isValid("]"));
 }

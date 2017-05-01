@@ -1,7 +1,7 @@
 project(tests)
 
 add_executable(run_tests
-        main.cpp 001_two_sum.cpp 002_add_two_nums.cpp 003_longest_substr.cpp 004_median_of_two_sorted_array.cpp 005_longest_palindromic_substr.cpp 006_zigzag_conversion.cpp 007_reverse_integer.cpp 008_string2integer_atoi.cpp 009_palindrome_number.cpp 010_regular_expression_matching.cpp 011_container_with_most_water.cpp 012_integer_to_roman.cpp 013_roman_to_integer.cpp 014_longest_common_prefix.cpp 015_3sum.cpp ../ALG/merge_sort.cpp ../ALG/reversion_pair.cpp ../ALG/insert_sort.cpp ../ALG/bubble_sort.cpp 016_3sum_closest.cpp 017_letter_combinations.cpp 018_4sum.cpp 019_remove_nth_node.cpp 020_valid_parentheses.cpp 021_merge_two_sorted_lists.cpp 022_generate_parentheses.cpp 023_merge_k_sorted_lists.cpp)
+        main.cpp 001_two_sum.cpp 002_add_two_nums.cpp 003_longest_substr.cpp 004_median_of_two_sorted_array.cpp 005_longest_palindromic_substr.cpp 006_zigzag_conversion.cpp 007_reverse_integer.cpp 008_string2integer_atoi.cpp 009_palindrome_number.cpp 010_regular_expression_matching.cpp 011_container_with_most_water.cpp 012_integer_to_roman.cpp 013_roman_to_integer.cpp 014_longest_common_prefix.cpp 015_3sum.cpp ../ALG/merge_sort.cpp ../ALG/reversion_pair.cpp ../ALG/insert_sort.cpp ../ALG/bubble_sort.cpp 016_3sum_closest.cpp 017_letter_combinations.cpp 018_4sum.cpp 019_remove_nth_node.cpp 020_valid_parentheses.cpp 021_merge_two_sorted_lists.cpp 022_generate_parentheses.cpp 023_merge_k_sorted_lists.cpp 024_swap_nodes_in_pairs.cpp)
 
 target_link_libraries(run_tests gtest gtest_main)
 target_link_libraries(run_tests Main)

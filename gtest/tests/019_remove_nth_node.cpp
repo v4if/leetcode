@@ -33,8 +33,8 @@ public:
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode **p_del, *rear;
-        p_del = &head;
+        ListNode **pre, *rear;
+        pre = &head;
         rear = head;
 
         while (--n && rear != nullptr) {
@@ -45,10 +45,10 @@ public:
 
         while (rear && rear->next) {
             rear = rear->next;
-            p_del = &((*p_del)->next);
+            pre = &((*pre)->next);
         }
 
-        *p_del = (*p_del)->next;
+        *pre = (*pre)->next;
 
         return head;
     }

@@ -4,6 +4,9 @@
 
 轻松构造各种千奇百怪的测试用例，让你爽到爆
 
+## 题解代码在测试框架gtest目录下
+[/gtest/tests](https://github.com/v4if/leetcode/tree/master/gtest/tests)
+
 ## GDB Tips
 p *nums@6 //打印数组
 

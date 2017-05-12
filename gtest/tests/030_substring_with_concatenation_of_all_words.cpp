@@ -44,7 +44,8 @@ public:
             int start = i;
 //            当前窗口包含的words
             int count = 0;
-            for (int j = i; j + len < s.length(); j = j + len) {
+//            包括自身节点 =
+            for (int j = i; j + len <= s.length(); j = j + len) {
                 string sub = s.substr(j, len);
                 if (pattern.find(sub) != pattern.end()) {
                     if (sliding.find(sub) != sliding.end()) {
@@ -94,4 +95,8 @@ TEST(leetcode, substring_with_concatenation_of_all_words) {
     result = {0, 9};
     words = {"foo", "bar"};
     EXPECT_EQ(result, Solution().findSubstring("barfoothefoobarman", words));
+
+    result = {8};
+    words = {"word","good","best","good"};
+    EXPECT_EQ(result, Solution().findSubstring("wordgoodgoodgoodbestword", words));
 }

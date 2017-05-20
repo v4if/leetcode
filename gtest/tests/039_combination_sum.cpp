@@ -38,6 +38,7 @@ public:
         return result;
     }
 
+//    递归：首先判断结束条件，注意递归之间变量的清除
     void combination(vector<int>& candidates, int from, int remains, vector<int> &v, vector<vector<int>>& result) {
         if (remains == 0) {
             result.push_back(v);

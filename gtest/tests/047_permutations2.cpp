@@ -42,6 +42,7 @@ public:
         }
 
         for (int i = 0; i < len; ++i) {
+//            过滤掉排序之后相邻元素相同的递归
             if (i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == false) continue;
 
             if (!visited[i]) {

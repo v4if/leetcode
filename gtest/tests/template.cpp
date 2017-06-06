@@ -17,10 +17,5 @@ public:
 };
 
 TEST(leetcode, template) {
-//    二进制比较
-    EXPECT_EQ(1, 1);
-//    浮点型检查
-    EXPECT_FLOAT_EQ(1.0, 1.0);
-//    字符串比较
-    ASSERT_STREQ("str", "str");
+
 }

@@ -11,10 +11,9 @@
 
 using namespace std;
 
-class Solution {
-public:
+namespace solve_first {
 
-};
+}
 
 TEST(leetcode, template) {
 

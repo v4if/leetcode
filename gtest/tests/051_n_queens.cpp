@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-#include <unordered_map>
 #include <gtest/gtest.h>
 
 /*
@@ -77,10 +76,4 @@ TEST(leetcode, n_queens) {
         }
         cout << endl;
     }
-
-//    vector<string> sol(3, string(3, '.'));
-//    sol[1][2] = 'Q';
-//    for (auto str : sol) {
-//        cout << str << endl;
-//    }
 }

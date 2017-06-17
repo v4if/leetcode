@@ -55,7 +55,3 @@ namespace solve_first {
         return dp[m - 1][n - 1];
     }
 }
-
-TEST(leetcode, template) {
-
-}

@@ -22,26 +22,26 @@ namespace solve_first {
          ListNode(int x) : val(x), next(NULL) {}
     };
     ListNode* rotateRight(ListNode* head, int k) {
-        ListNode* tail = head;
-        ListNode* pre = head;
-        ListNode* dummy_head = head;
+        if(!head) return head;
 
-        while (k-- && tail) {
+        int len=1; // number of nodes
+        ListNode *newH, *tail;
+        newH=tail=head;
+
+        while(tail->next)  // get the number of nodes in the list
+        {
             tail = tail->next;
+            len++;
         }
+        tail->next = head; // circle the link
 
-        if (k >= 0) return head;
-
-        while (tail && tail->next) {
-            pre = pre->next;
-            tail = tail->next;
+        if(k %= len)
+        {
+            for(auto i=0; i<len-k; i++) tail = tail->next; // the tail node is the (len-k)-th node (1st node is head)
         }
-
-        tail->next = head;
-        dummy_head = pre->next;
-        pre->next = NULL;
-
-        return dummy_head;
+        newH = tail->next;
+        tail->next = NULL;
+        return newH;
     }
 }
 

@@ -44,6 +44,7 @@ namespace solve_first {
             int nums_blank = i - lower_bound - 1;
 //            向下取整
             int slots = nums_blank > 1 ? (maxWidth - cnt) / (i - lower_bound - 1) : 0;
+//            这里空格具体怎么算没读懂题意
             int left = nums_blank > 1 ? (maxWidth - cnt) - slots * ((i - lower_bound - 1 - 1)) : maxWidth - cnt;
 
 //            当前是最后一行

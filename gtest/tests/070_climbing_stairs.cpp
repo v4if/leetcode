@@ -6,7 +6,11 @@
 #include <gtest/gtest.h>
 
 /*
+You are climbing a stair case. It takes n steps to reach to the top.
 
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+Note: Given n will be a positive integer.
  * */
 
 using namespace std;
@@ -68,5 +72,5 @@ namespace solve_dp_o1 {
 }
 
 TEST(leetcode, leetcode_climbing_stairs_Test) {
-    EXPECT_EQ(2, solve_dp_o1::climbStairs(1));
+    EXPECT_EQ(1, solve_dp_o1::climbStairs(1));
 }

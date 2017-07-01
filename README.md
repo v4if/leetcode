@@ -14,4 +14,5 @@ define hook-stop //调试脚本 end结束
 
 ## Win 下环境搭建请安装MinGW 或 Cygwin
 win下日期格式化
-alias  date=echo %DATE:~0,10% %TIME:~0,8%
+
+`alias  date=echo %DATE:~0,10% %TIME:~0,8%`

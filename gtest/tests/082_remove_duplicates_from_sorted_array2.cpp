@@ -22,7 +22,7 @@ namespace solve_first {
         ListNode(int x): val(x), next(NULL){}
     };
 
-    ListNode* deleteDuplicates(ListNode* head) {
+    ListNode* deleteDuplicates2(ListNode* head) {
 //        空或者只有一个节点
         if (head == NULL || head->next == NULL) return head;
 
@@ -66,7 +66,7 @@ TEST(leetcode, remove_duplicates_from_sorted_array2_test) {
         dummy.next = l;
     }
 
-    ListNode* n = deleteDuplicates(dummy.next);
+    ListNode* n = deleteDuplicates2(dummy.next);
     while (n) {
         cout << n->val << " ";
         n = n->next;

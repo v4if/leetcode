@@ -34,6 +34,9 @@ namespace binary_tree_inorder_traversal {
 
     TreeNode* stringToTreeNode(string input) {
         input = input.substr(1, input.size() - 2);
+        if (!input.size()) {
+            return nullptr;
+        }
 
         stringstream ss;
         ss.str(input);

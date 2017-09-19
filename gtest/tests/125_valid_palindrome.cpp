@@ -21,30 +21,26 @@ For the purpose of this problem, we define empty string as valid palindrome.
 using namespace std;
 
 namespace valid_palindrome {
-    bool helper(char ch) {
-        return (ch >= '0' && ch <= '9') || (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z');
-    }
     bool isPalindrome(string s) {
-        if (s.empty()) return true;
+        if (s.empty())
+        {
+            return true;
+        }
 
-        int i = 0;
-        int j = s.length() - 1;
-        while (i < j) {
-            if (!helper(s[i])) {
-                i++;
-                continue;
-            }
-            if (!helper(s[j])) {
-                j--;
-                continue;
-            }
+        int l = 0;
+        int r = s.size() - 1;
 
-            if (tolower(s[i]) == tolower(s[j])) {
-                i++;
-                j--;
-            } else {
+        while (l < r)
+        {
+            while (!isalnum(s[l]) && l < r) l++;
+            while (!isalnum(s[r]) && l < r) r--;
+            if (l == r) break;
+
+            if ( tolower(s[l]) != tolower(s[r]))
+            {
                 return false;
             }
+            l++;r--;
         }
 
         return true;

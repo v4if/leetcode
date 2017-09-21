@@ -151,7 +151,7 @@ namespace word_ladder_try {
 }
 
 namespace two_end_search {
-    
+     
 }
 
 TEST(leetcode, leetcode_word_ladder__Test) {

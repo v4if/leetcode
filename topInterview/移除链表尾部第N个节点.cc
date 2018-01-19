@@ -11,7 +11,7 @@ struct ListNode {
 };
 
 ListNode* removeNthFromEnd(ListNode* head, int n) {
-
+    //防止删除头节点
     ListNode* dummy = new ListNode(0);
     dummy->next = head;
     ListNode* slow = dummy, *fast=dummy;

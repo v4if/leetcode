@@ -58,3 +58,6 @@ B-树中的一个包含n个关键字，n+1个指针的结点的一般形式为�
 ## http://blog.csdn.net/yangliuy/article/details/43924581
 
 https://www.nowcoder.com/discuss/12805 
+
+## shell脚本抽取制定字符串、grep+awk+cut+sed
+[shell脚本抽取制定字符串、grep+awk+cut+sed](http://blog.csdn.net/zhangfn2011/article/details/39890875)

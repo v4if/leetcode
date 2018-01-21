@@ -105,3 +105,6 @@ for i from n−1 downto 1 do
 
 ## 自旋锁
 [自旋锁代替互斥锁的实践](http://ifeve.com/practice-of-using-spinlock-instead-of-mutex/)
+
+## 52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率
+[52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率](http://blog.csdn.net/huntinux/article/details/16844941)

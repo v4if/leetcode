@@ -56,7 +56,7 @@ B-树中的一个包含n个关键字，n+1个指针的结点的一般形式为�
 ## 根据每个订单的商品做hash, 分成小文件 做统计,   再用堆排序取top100
 
 ## 从很长的数据流等概率随机采样
-https://www.nowcoder.com/discuss/12805  蓄水池抽样
+[蓄水池抽样](http://blog.csdn.net/yangliuy/article/details/43924581)
 ```python
 import random  
 SAMPLE_COUNT = 10  
@@ -91,3 +91,9 @@ for i from n−1 downto 1 do
 
 ## shell脚本抽取制定字符串、grep+awk+cut+sed
 [shell脚本抽取制定字符串、grep+awk+cut+sed](http://blog.csdn.net/zhangfn2011/article/details/39890875)
+
+## 读写锁
+[实现线程读写锁的四种方法](http://blog.csdn.net/ojshilu/article/details/25244389)
+
+## 自旋锁
+[自旋锁代替互斥锁的实践](http://ifeve.com/practice-of-using-spinlock-instead-of-mutex/)

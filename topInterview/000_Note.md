@@ -55,9 +55,29 @@ B-树中的一个包含n个关键字，n+1个指针的结点的一般形式为�
 
 ## 根据每个订单的商品做hash, 分成小文件 做统计,   再用堆排序取top100
 
-## http://blog.csdn.net/yangliuy/article/details/43924581
-
-https://www.nowcoder.com/discuss/12805 
+## 从很长的数据流等概率随机采样
+https://www.nowcoder.com/discuss/12805  蓄水池抽样
+```python
+import random  
+SAMPLE_COUNT = 10  
+   
+# Force the value of the seed so the results are repeatable  
+random.seed(12345)  
+   
+sample_titles = []  
+for index, line in enumerate(open("enwiki-20091103-all-titles-in-ns0")):  
+        # Generate the reservoir  
+        if index < SAMPLE_COUNT:  
+                sample_titles.append(line)  
+        else:  
+                # Randomly replace elements in the reservoir  
+                # with a decreasing probability.  
+                # Choose an integer between 0 and index (inclusive)  
+                r = random.randint(0, index)  
+                if r < SAMPLE_COUNT:  
+                        sample_titles[r] = line  
+print sample_titles  
+```
 
 ## shuffle
 这里的方法是在每次迭代时交换这个被取出的数字到原始列表的最后

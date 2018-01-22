@@ -108,3 +108,6 @@ for i from n−1 downto 1 do
 
 ## 52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率
 [52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率](http://blog.csdn.net/huntinux/article/details/16844941)
+
+## 面经
+[面试题干货在此 ](https://www.nowcoder.com/discuss/57978?type=0&order=0&pos=24&page=1)

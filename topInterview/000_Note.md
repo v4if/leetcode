@@ -113,4 +113,4 @@ for i from n−1 downto 1 do
 [面试题干货在此 ](https://www.nowcoder.com/discuss/57978?type=0&order=0&pos=24&page=1)
 
 ## select poll epoll
-[xx](http://img.blog.csdn.net/20160422143642896)
+![xx](http://img.blog.csdn.net/20160422143642896)

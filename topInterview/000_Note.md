@@ -1,5 +1,6 @@
 ## 内存泄漏如何检测，如何解决
 [C++内存泄漏的几种情况](http://www.cnblogs.com/SeekHit/p/6549940.html)
+[C/C++内存泄漏及检测](https://www.cnblogs.com/skynet/archive/2011/02/20/1959162.html)
 
 ## 系统调用
 

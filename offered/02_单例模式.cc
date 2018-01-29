@@ -1,6 +1,6 @@
 class Singleton{
 public:
-    Singleton* getInstance() {
+    static Singleton* getInstance() {
         if (m_pData == NULL) {
             m_pData = new Singleton();
         }

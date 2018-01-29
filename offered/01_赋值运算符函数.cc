@@ -7,7 +7,8 @@ private:
     char* m_pData;
 };
  */
- 
+
+// 没有考虑new的异常安全  bad_alloc
 MyStr& MyStr::operator= (const MyStr& other) {
     if (this == &other) return *this;
 

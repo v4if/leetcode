@@ -115,3 +115,18 @@ for i from n−1 downto 1 do
 
 ## select poll epoll
 ![xx](http://img.blog.csdn.net/20160422143642896)
+
+## 同步与异步 阻塞与非阻塞
+同步和异步关注的是消息通信机制 (synchronous communication/ asynchronous communication)
+
+所谓同步，就是在发出一个`调用`时，在没有得到结果之前，该`调用`就不返回。但是一旦调用返回，就得到返回值了。换句话说，就是由`调用者`主动等待这个`调用`的结果。而异步则是相反，`调用`在发出之后，这个调用就直接返回了，所以没有返回结果。换句话说，当一个异步过程调用发出后，调用者不会立刻得到结果。而是在`调用`发出后，`被调用者`通过状态、通知来通知调用者，或通过回调函数处理这个调用。
+
+阻塞和非阻塞关注的是程序在等待调用结果（消息，返回值）时的状态
+
+阻塞调用是指调用结果返回之前，当前线程会被挂起。调用线程只有在得到结果之后才会返回。
+非阻塞调用指在不能立刻得到结果之前，该调用不会阻塞当前线程。
+
+![xx](http://static.zybuluo.com/zhenlanghuo/aal4brj3okthdticuenp4vco/5%E7%A7%8DIO%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83.png)
+
+在处理 IO 的时候，阻塞和非阻塞都是同步 IO。只有使用了特殊的 API 才是异步 IO。
+![xx](https://pic4.zhimg.com/80/7d3eb389b7724878bd7e12ebc6dbcdb5_hd.jpg)

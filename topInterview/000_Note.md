@@ -163,3 +163,28 @@ for i from n−1 downto 1 do
 ![xx](https://pic4.zhimg.com/80/7d3eb389b7724878bd7e12ebc6dbcdb5_hd.jpg)
 
 [并发模型](https://github.com/linw7/TKeed/blob/master/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)
+
+## nginx redis
+[redis,nginx相关面试](http://blog.csdn.net/qq_29108585/article/details/67074435)
+[nginx面试要点--持续更新中](http://blog.csdn.net/watson2016/article/details/77938678)
+[Nginx和Apache有什么区别](https://www.cnblogs.com/wt645631686/p/7572981.html)
+[nginx 使用过程中一些基础性问题总结](https://www.cnblogs.com/qiuyan/p/4186435.html)
+[高性能高并发 面试](https://www.cnblogs.com/heartstage/p/3415584.html)
+[Redis面试题及分布式集群](http://blog.csdn.net/yajlv/article/details/73467865)
+[Redis的那些最常见面试问题](https://www.cnblogs.com/Survivalist/p/8119891.html)
+[redis面试总结](https://www.cnblogs.com/jiahaoJAVA/p/6244278.html)
+
+## 分布式
+[怎么做分布式存储的面试](http://www.zenlife.tk/interview-for-distributed-storage.md)
+
+[阿里面试_技术问题和经验总结](https://www.cnblogs.com/zhangshiwen/p/5788467.html)
+
+[对于Zookeeper一些面试题自己的答案](https://www.toutiao.com/i6446291810334540301/)
+
+[百度正式开源其RPC框架brpc](https://segmentfault.com/a/1190000011407840)
+
+[小米和京东的4道关于Dubbo、Zookeeper等的面试题，并有答案分享](https://www.phpyuan.com/233408.html)
+
+[年底啦，java后台面试题整理](https://www.jianshu.com/p/f5dee1306d0d)
+
+[Dubbo分布式服务框架入门（附工程）](http://www.importnew.com/19732.html)

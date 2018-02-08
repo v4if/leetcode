@@ -15,7 +15,7 @@
 
 ## [硬链接与软链接](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/)
 [符号连接、软连接、硬连接、快捷方式、副本(copy)之间有何区别和联系？ - 高洪涛的回答 - 知乎](https://www.zhihu.com/question/20729978/answer/31351994)
- 
+
 ![xx](https://images2015.cnblogs.com/blog/393890/201511/393890-20151128142803015-292063645.png)
 
 ![xx](https://images2015.cnblogs.com/blog/393890/201511/393890-20151123155409373-499496841.png)

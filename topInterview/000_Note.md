@@ -52,6 +52,7 @@ BST删除结点：叶子结点；左子树空或者右子树空；左右都非�
 `B树`
 
 ![xx](http://img.my.csdn.net/uploads/201106/7/8394323_13074405906V6Q.jpg)
+
 `B+树`
 
 ![xx](http://www.niceru.com/wp-content/uploads/2013/09/2.png)

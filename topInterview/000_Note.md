@@ -32,7 +32,7 @@
 * 如果一个结点是红的，那么它的两个儿子都是黑的。  
 * 对于任意结点而言，其到叶结点树尾端NIL指针的每条路径都包含相同数目的黑结点。 
 
-https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91
+[wiki_红黑树](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
 
 ## 产生死锁的四个必要条件？
 * 互斥条件：进程对所分配到的资源不允许其他进程进行访问，若其他进程访问该资源，只能等待，直至占有该资源的进程使用完成后释放该资源
@@ -134,3 +134,6 @@ for i from n−1 downto 1 do
 ![xx](https://pic4.zhimg.com/80/7d3eb389b7724878bd7e12ebc6dbcdb5_hd.jpg)
 
 [并发模型](https://github.com/linw7/TKeed/blob/master/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)
+
+## BST
+[wiki_二叉搜索树](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9)

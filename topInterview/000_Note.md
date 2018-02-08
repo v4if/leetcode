@@ -143,6 +143,7 @@ for i from n−1 downto 1 do
 
 ## 面经
 [面试题干货在此 ](https://www.nowcoder.com/discuss/57978?type=0&order=0&pos=24&page=1)
+[如何学好 Linux、C++，并搞定 BAT 面试](http://gitbook.cn/books/59c332b1a9dfc23551ebfa4a/index.html)
 
 ## select poll epoll
 ![xx](http://img.blog.csdn.net/20160422143642896)
@@ -166,12 +167,19 @@ for i from n−1 downto 1 do
 
 ## nginx redis
 [redis,nginx相关面试](http://blog.csdn.net/qq_29108585/article/details/67074435)
+
 [nginx面试要点--持续更新中](http://blog.csdn.net/watson2016/article/details/77938678)
+
 [Nginx和Apache有什么区别](https://www.cnblogs.com/wt645631686/p/7572981.html)
+
 [nginx 使用过程中一些基础性问题总结](https://www.cnblogs.com/qiuyan/p/4186435.html)
+
 [高性能高并发 面试](https://www.cnblogs.com/heartstage/p/3415584.html)
+
 [Redis面试题及分布式集群](http://blog.csdn.net/yajlv/article/details/73467865)
+
 [Redis的那些最常见面试问题](https://www.cnblogs.com/Survivalist/p/8119891.html)
+
 [redis面试总结](https://www.cnblogs.com/jiahaoJAVA/p/6244278.html)
 
 ## 分布式

@@ -264,3 +264,6 @@ dubbo是用来跨系统通信的，即使不用集群也可以。一个系统用
 [年底啦，java后台面试题整理](https://www.jianshu.com/p/f5dee1306d0d)
 
 [Dubbo分布式服务框架入门（附工程）](http://www.importnew.com/19732.html)
+
+## 其他
+[腾讯七大事业群](http://blog.csdn.net/junbujianwpl/article/details/52832094)

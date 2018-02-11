@@ -211,8 +211,14 @@ session服务器可以解决上面的所有的问题，利用独立部署的sess
 
 [redis面试总结](https://www.cnblogs.com/jiahaoJAVA/p/6244278.html)
 
+[缓存技术PK：选择Memcached还是Redis](http://blog.csdn.net/sosfnima/article/details/51993181)
+
 ## 分布式
-[怎么做分布式存储的面试](http://www.zenlife.tk/interview-for-distributed-storage.md)
+ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。它是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。
+
+![xx](https://baike.baidu.com/pic/Dubbo/18907815/0/d53f8794a4c27d1e46c53a2611d5ad6edcc43874?fr=lemma&ct=single#aid=0&pic=d53f8794a4c27d1e46c53a2611d5ad6edcc43874)
+
+dubbo是用来跨系统通信的，即使不用集群也可以。一个系统用作客户端，一个系统则充当服务端。服务端要把自己的接口定义提供给客户端，客户端将接口定义在spring中的bean。客户端可以直接使用这个bean，就好像这些接口的实现也是在自己代码里一样。客户端和服务端启动的时候都会把自己的机器IP注册到zookeeper上。客户端会把zk上的服务端ip拉到磁盘上，并记录哪些ip提供哪些服务（服务端启动的时候暴露给zk）。然后调用的时候客户端会根据ip调用服务端的服务，这时候即使zk挂掉也没关系。
 
 [阿里面试_技术问题和经验总结](https://www.cnblogs.com/zhangshiwen/p/5788467.html)
 

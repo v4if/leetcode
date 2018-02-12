@@ -265,5 +265,15 @@ dubbo是用来跨系统通信的，即使不用集群也可以。一个系统用
 
 [Dubbo分布式服务框架入门（附工程）](http://www.importnew.com/19732.html)
 
+## 最小生成树
+边有权值的代价最小的连通子图
+
+`Kruskal算法` 加边法
+![xx](http://img.blog.csdn.net/20160714144315409)
+
+`Prim算法` 加点法
+![xx](http://img.blog.csdn.net/20160714161107576)
+
+
 ## 其他
 [腾讯七大事业群](http://blog.csdn.net/junbujianwpl/article/details/52832094)

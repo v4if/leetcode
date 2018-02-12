@@ -10,6 +10,7 @@
 ## 数据库优化
 
 ## tcp三次握手四次挥手，TCP 拥塞控制等
+![xx](http://oowjr8zsi.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180212114856.jpg)
 
 ## 各种排序算法的时间复杂度和稳定性
 

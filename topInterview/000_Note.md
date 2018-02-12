@@ -6,6 +6,9 @@
 ## 系统调用
 
 ## UDP和TCP的区别
+![xx](http://img.my.csdn.net/uploads/201303/15/1363304805_1611.jpg)
+
+![xx](http://img.my.csdn.net/uploads/201303/15/1363304832_2419.jpg)
 
 ## 数据库优化
 
@@ -44,7 +47,14 @@
 
 独立性方面：进程有自己独立的地址空间，而线程没有，线程必须依赖于进程而存在。
 
+在Linux中，线程是由进程来实现。在内核里面，进程用 struct task_struct 表示，一个进程就是一个 task_struct，一个线程也是一个 task_struct，但是同一个进程中的线程的 task_struct 里边某些值相同，某些指针指向相同的位置。从内核的角度来看，线程就是进程。
+
+## 进程调度
+[O(n)、O(1)和CFS调度器](http://www.wowotech.net/process_management/scheduler-history.html)
+[Linux进程调度-------O(1)调度和CFS调度器](http://blog.csdn.net/a2796749/article/details/47101533)
+
 ## 线程同步：互斥锁、条件变量、信号量
+[线程同步：互斥锁，条件变量，信号量](http://www.cnblogs.com/549294286/p/3687678.html)
 
 ## 进程通信：管道、消息队列、共享内存、信号、套接字
 

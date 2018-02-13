@@ -17,6 +17,9 @@
 
 ## 各种排序算法的时间复杂度和稳定性
 
+## Java与C++区别
+指针、操作符重载、GC、跨平台性
+
 ## [硬链接与软链接](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/)
 [符号连接、软连接、硬连接、快捷方式、副本(copy)之间有何区别和联系？ - 高洪涛的回答 - 知乎](https://www.zhihu.com/question/20729978/answer/31351994)
 

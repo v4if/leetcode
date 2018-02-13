@@ -36,6 +36,8 @@ x,y,z就是函数，系统调用应用程序编程接口，这个应用程序编
 ## 数据库优化
 找瓶颈，数据库吞吐量上不去或者查询慢都是因为某一瓶颈的存在，从非常大的粒度来看，瓶颈可以分为五类：io 内存 CPU 网络 锁。
 
+[分库分表的几种常见形式以及可能遇到的难](http://www.infoq.com/cn/articles/key-steps-and-likely-problems-of-split-table)
+
 1、 表的设计要规范，即要符合数据库设计三范式。2、 适当建立索引，在频繁作为检索条件，更新较少的字段上建立索引，以提高查询速度。3、 分表查询，有水平分割、垂直分割。4、 读写分离，读(read)、写(create、update、delete)。5、建立存储过程。
 
 查看执行计划Explain Plan，避免全表扫描；缓存
@@ -44,6 +46,15 @@ x,y,z就是函数，系统调用应用程序编程接口，这个应用程序编
 
 ## tcp三次握手四次挥手，TCP 拥塞控制等
 ![xx](http://oowjr8zsi.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180212114856.jpg)
+
+![xx](http://img.blog.csdn.net/20140509221015859?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveWVjaGFvZGVjaHVudGlhbg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+`Nagle算法`
+TCP/IP协议中，无论发送多少数据，总是要在数据前面加上协议头，同时，对方接收到数据，也需要发送ACK表示确认。为了尽可能的利用网络带宽，TCP总是希望尽可能的发送足够大的数据。（一个连接会设置MSS参数，因此，TCP/IP希望每次都能够以MSS尺寸的数据块来发送数据）。Nagle算法就是为了尽可能发送大块数据，避免网络中充斥着许多小数据块。
+
+Nagle算法的基本定义是任意时刻，最多只能有一个未被确认的小段。 所谓“小段”，指的是小于MSS尺寸的数据块，所谓“未被确认”，是指一个数据块发送出去后，没有收到对方发送的ACK确认该数据已收到。
+
+Nagle是基于ack的,当发送端没有收到ack的时候,会尽可能的合并小包。它并不管包的大小，因此它事实上就是一个扩展的停-等协议，只不过它是基于包停-等的，而不是基于字节停-等的。Nagle算法完全由TCP协议的ACK机制决定，这会带来一些问题，比如如果对端ACK回复很快的话，Nagle事实上不会拼接太多的数据包
 
 ## 各种排序算法的时间复杂度和稳定性
 

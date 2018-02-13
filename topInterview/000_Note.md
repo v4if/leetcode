@@ -3,6 +3,9 @@
 
 [C/C++内存泄漏及检测](https://www.cnblogs.com/skynet/archive/2011/02/20/1959162.html)
 
+## static
+static 文件作用域，内存分配，函数内部生命周期，C++中成员函数和成员变量，this指针，初始化位置等
+
 ## 系统调用
 ![xx](http://images2015.cnblogs.com/blog/745208/201603/745208-20160320173759365-717123393.jpg)
 
@@ -32,6 +35,8 @@ x,y,z就是函数，系统调用应用程序编程接口，这个应用程序编
 ![xx](http://img.my.csdn.net/uploads/201303/15/1363304805_1611.jpg)
 
 ![xx](http://img.my.csdn.net/uploads/201303/15/1363304832_2419.jpg)
+
+![xx](http://img.blog.csdn.net/20170227111849763?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTWFyeTE5OTIwNDEw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 ## 数据库优化
 找瓶颈，数据库吞吐量上不去或者查询慢都是因为某一瓶颈的存在，从非常大的粒度来看，瓶颈可以分为五类：io 内存 CPU 网络 锁。

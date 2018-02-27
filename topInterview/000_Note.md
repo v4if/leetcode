@@ -304,6 +304,7 @@ zookeeper是一个为分布式应用提供一致性服务的软件，它内部�
 
 Zookeeper 和 Chubby .他俩都是分布式选举算法的封装，用来解决分布式下的数据一致性问题，c是paxos的完全实现，z少有偏差。锁的问题，c肯定会用起来方便一点，z也有相应的办法可以实现。c没有开源具体怎么不太清楚，z用的比较多。
 
+YARN是开源项目Hadoop的一个资源管理系统，最初设计是为了解决Hadoop中MapReduce计算框架中的资源管理问题，但是现在它已经是一个更加通用的资源管理系统，可以把MapReduce计算框架作为一个应用程序运行在YARN系统之上，通过YARN来管理资源。
 
 ![xx](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=f1e638059b2397ddc274905638ebd9d2/d53f8794a4c27d1e46c53a2611d5ad6edcc43874.jpg)
 

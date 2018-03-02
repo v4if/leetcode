@@ -5,13 +5,9 @@
 
 ## C++
 size_t 是 unsigned 类型，用于指明数组长度或下标，它必须是一个正数， std::size_t
-
 ptrdiff_t 是 signed 类型，用于存放同一数组中两个指针之间的差距，它可以是负数， std::ptrdiff_t
-
 size_type 是 unsigned 类型 , 表示容器中元素长度或者下标， vector<int>::size_type i = 0
-
 difference_type 是 signed 类型 , 表示迭代器差距， vector<int>:: difference_type = iter1-iter2
-
 前二者位于标准类库 std 内，后二者专为 STL 对象所拥有。
 
 ## static

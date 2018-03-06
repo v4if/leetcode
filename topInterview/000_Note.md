@@ -14,8 +14,61 @@ RTTI（Run-Time Type Identification) 运行时类型识别。
 
 当类中含有虚函数时，其基类的指针就可以指向任何派生类的对象，这时就有可能不知道基类指针到底指向的是哪个对象的情况，类型的确定要在运行时利用运行时类型标识做出。使用内建的 RTTI 中的运算符：typeid 和 dynamic_cast。
 
+
+## kill 与 kill -9
+kill pid的作用是向进程号为pid的进程发送SIGTERM（这是kill默认发送的信号），该信号是一个结束进程的信号且可以被应用程序捕获。若应用程序没有捕获并响应该信号的逻辑代码，则该信号的默认动作是kill掉进程。这是终止指定进程的推荐做法。
+ 
+kill -9 pid则是向进程号为pid的进程发送SIGKILL（该信号的编号为9），从本文上面的说明可知，SIGKILL既不能被应用程序捕获，也不能被阻塞或忽略，其动作是立即结束指定进程。通俗地说，应用程序根本无法“感知”SIGKILL信号，即exit，它在完全无准备的情况下，就被收到SIGKILL信号的操作系统给干掉了，显然，在这种“暴力”情况下，应用程序完全没有释放当前占用资源的机会。事实上，SIGKILL信号是直接发给init进程的，它收到该信号后，负责终止pid指定的进程。在某些情况下（如进程已经hang死，无法响应正常信号），就可以使用kill -9来结束进程。
+若通过kill结束的进程是一个创建过子进程的父进程，则其子进程就会成为孤儿进程（Orphan Process）
+
 ## 内核线程与用户线程
 ![xx](http://img.blog.csdn.net/20160712204159672)
+
+## Linux命令
+```bash
+wc [OPTION] [FILE] --> -c, --bytes; -l, --lines; -w, words
+find /home -name "*.txt"
+grep "match_pattern" file_1 file_2 file_3 ...
+
+# 使用正则表达式 -E 选项：
+grep -E "[1-9]+"
+# 或
+egrep "[1-9]+"
+
+# 只输出文件中匹配到的部分 -o 选项
+echo this is a test line. | grep -o -E "[a-z]+\."
+
+# ln oldfile newfile
+ln -s /usr/mengqc/mub1 /usr/liu/abc
+
+top 动态显示当前耗费资源最多进程信息
+ps 显示瞬间进程状态 ps -aux
+du 查看目录大小 du -h /home带有单位显示目录信息
+df 查看磁盘大小 df -h 带有单位显示磁盘信息
+
+alias showmeit="ps -aux"
+
+# 查看机器端口占用情况
+netstat -ano 
+
+sudo dpkg -i tree_1.5.3-1_i386.deb 安装软件
+sudo dpkg -r tree 卸载软件
+
+# vim命令模式下
+/apache 在文档中查找apache 按n跳到下一个，shift+n上一个
+:set number 显示行号
+:set nonumber 隐藏行号
+
+/etc/profile 系统环境变量
+bash_profile 用户环境变量
+.bashrc 用户环境变量
+su user 切换用户，加载配置文件.bashrc
+su - user 切换用户，加载配置文件/etc/profile ，加载bash_profile
+
+# 更改文件的用户及用户组
+sudo chown [-R] owner[:group] {File|Directory}
+sudo chown root:root jdk-7u21-linux-i586.tar.gz
+```
 
 [线程的3种实现方式--内核级线程, 用户级线程和混合型线程](http://blog.csdn.net/gatieme/article/details/51892437)
 

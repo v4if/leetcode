@@ -332,6 +332,8 @@ B-树中的一个包含n个关键字，n+1个指针的结点的一般形式为�
 
 ![hash](http://www.codeproject.com/KB/recipes/lib-conhash/virtual.JPG)
 
+基本思想就是将对象和 cache 都映射到同一个 hash 数值空间中，并且使用相同的hash 算法。 cache 的 hash 计算，一般的方法可以使用 cache 机器的 IP 地址或者机器名作为hash 输入。
+
 ![hash](http://www.codeproject.com/KB/recipes/lib-conhash/map.JPG)
 
 请问虚拟节点，怎么保证均匀分布在，那个环上呢？

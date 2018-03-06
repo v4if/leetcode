@@ -327,6 +327,17 @@ B-树中的一个包含n个关键字，n+1个指针的结点的一般形式为�
 
 ## 根据每个订单的商品做hash, 分成小文件 做统计,   再用堆排序取top100
 
+## 缓存服务器
+一致性、平衡性
+
+![hash](http://www.codeproject.com/KB/recipes/lib-conhash/virtual.JPG)
+
+![hash](http://www.codeproject.com/KB/recipes/lib-conhash/map.JPG)
+
+请问虚拟节点，怎么保证均匀分布在，那个环上呢？
+
+这就要由hash算法来保证了，均匀分布是概率上的均匀，当虚拟节点足够时，就能保证大概均匀了
+
 ## 从很长的数据流等概率随机采样
 [蓄水池抽样](http://blog.csdn.net/yangliuy/article/details/43924581)
 ```python

@@ -10,9 +10,18 @@ struct TreeNode {
 			val(x), left(NULL), right(NULL) {
 	}
 };*/
+/*
+struct TreeNode {
+	int val;
+	struct TreeNode *left;
+	struct TreeNode *right;
+	TreeNode(int x) :
+			val(x), left(NULL), right(NULL) {
+	}
+};*/
 class Solution {
 public:
-    void bt(TreeNode* root, int& expect, vector<int>& result, vector<vector<int>>& arr){
+    void bt(TreeNode* root, int expect, vector<int>& result, vector<vector<int>>& arr){
         expect -= root->val;
         result.push_back(root->val);
         
@@ -22,7 +31,6 @@ public:
         
         if (root->left) bt(root->left, expect, result, arr);
         if (root->right) bt(root->right, expect, result, arr);
-        expect += root->val;
         result.pop_back();
     }
     vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {

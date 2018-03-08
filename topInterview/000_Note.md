@@ -26,6 +26,8 @@ kill -9 pid则是向进程号为pid的进程发送SIGKILL（该信号的编号�
 ## 内核线程与用户线程
 ![xx](http://img.blog.csdn.net/20160712204159672)
 
+[线程的3种实现方式--内核级线程, 用户级线程和混合型线程](http://blog.csdn.net/gatieme/article/details/51892437)
+
 ## 线程安全
 有多个线程在同时运行，如果每次运行结果和单线程运行的结果是一样的，而且其他的变量的值也和预期的是一样的，就是线程安全的。
 
@@ -77,8 +79,6 @@ su - user 切换用户，加载配置文件/etc/profile ，加载bash_profile
 sudo chown [-R] owner[:group] {File|Directory}
 sudo chown root:root jdk-7u21-linux-i586.tar.gz
 ```
-
-[线程的3种实现方式--内核级线程, 用户级线程和混合型线程](http://blog.csdn.net/gatieme/article/details/51892437)
 
 ## 内存对齐
 满足两条规则，1每个成员的偏移量都必须是当前成员所占内存大小的整数倍，如果不是，编译器会在成员之间填上字节；2当所有成员计算完成之后，编译器判断当前结构体大小是否是结构体中最宽成员变量大小的整数倍，如果不是会在最后一个成员后做字节填充。

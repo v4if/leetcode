@@ -61,3 +61,34 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+
+//===========================================
+/**
+*  struct ListNode {
+*        int val;
+*        struct ListNode *next;
+*        ListNode(int x) :
+*              val(x), next(NULL) {
+*        }
+*  };
+*/
+class Solution {
+public:
+    vector<int> printListFromTailToHead(ListNode* head) {
+        vector<int> result;
+        stack<int> st;
+        ListNode* cur = head;
+        while(cur) {
+            st.push(cur->val);
+            cur = cur->next;
+        }
+        
+        while(!st.empty()) {
+            int val = st.top();
+            result.emplace_back(val);
+            st.pop();
+            
+        }
+        return result;
+    }
+};

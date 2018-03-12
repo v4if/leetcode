@@ -82,3 +82,46 @@ int main() {
 
     return 0;
 }
+
+//============================================================
+#include <bits/stdc++.h>
+using namespace std;
+
+void fixDown(vector<int>& arr, int fixIdx) {
+    int sz = arr.size();
+    while(fixIdx < sz) {
+        int left = (fixIdx + 1) * 2 - 1;
+        int right = left + 1;
+
+        int minIdx = fixIdx;
+        minIdx = left < sz && arr[left] < arr[minIdx] ? left : minIdx;
+        minIdx = right < sz && arr[right] < arr[minIdx] ? right : minIdx;
+        if (minIdx == fixIdx) break;
+        else if (minIdx == left) {
+            swap(arr[fixIdx], arr[left]);
+            fixIdx = left;
+        } else {
+            swap(arr[fixIdx], arr[right]);
+            fixIdx = right;
+        }
+    }
+}
+void makeHeap(vector<int>& arr) {
+    if (arr.size() < 2) return;
+
+    int fixIdx = arr.size() / 2 - 1;
+    while(fixIdx >= 0) {
+        fixDown(arr, fixIdx);
+        fixIdx--;
+    }
+}
+
+int main() {
+    vector<int> arr{8,6,7,1,3,5};
+    makeHeap(arr);
+    for (int a : arr) cout << a << " ";
+    cout << endl;
+    return 0;
+}
+
+

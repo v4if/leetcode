@@ -494,6 +494,8 @@ session服务器可以解决上面的所有的问题，利用独立部署的sess
 [缓存技术PK：选择Memcached还是Redis](http://blog.csdn.net/sosfnima/article/details/51993181)
 
 ## 分布式
+map-reduce之所以有效是基于两个哲学（1）大而化小 和 （2） 异而化同。 这两个应对了大数据中的volume和variety挑战。 
+
 ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。它是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。
 
 zookeeper是一个为分布式应用提供一致性服务的软件，它内部是一个分层的文件系统目录树结构，规定统一个目录下只能有一个唯一文件名。

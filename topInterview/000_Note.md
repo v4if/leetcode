@@ -1,3 +1,4 @@
+
 ## 内存泄漏如何检测，如何解决
 [C++内存泄漏的几种情况](http://www.cnblogs.com/SeekHit/p/6549940.html)
 
@@ -5,6 +6,8 @@
 
 ## mmap
 多个进程mmap到同一个文件，实际上就是大家在共享文件page cache中的内存
+
+页缓存是面向文件，面向内存的。通过一系列的数据结构，比如inode, address_space, page，将一个文件映射到页的级别，通过page + offset就可以定位到一个文件的具体位置
 
 ## 数字存储
 十进制数-25的原码为10011001，反码为11100110，补码是反码加1，即为11100111，转化为十六进制即为E7
@@ -400,174 +403,4 @@ for i from n−1 downto 1 do
 ```
 
 ## shell脚本抽取制定字符串、grep+awk+cut+sed
-[shell脚本抽取制定字符串、grep+awk+cut+sed](http://blog.csdn.net/zhangfn2011/article/details/39890875)
-
-## 读写锁
-[实现线程读写锁的四种方法](http://blog.csdn.net/ojshilu/article/details/25244389)
-
-## 自旋锁
-[自旋锁代替互斥锁的实践](http://ifeve.com/practice-of-using-spinlock-instead-of-mutex/)
-
-## 52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率
-[52张扑克牌，红桃A和黑桃A同时被一个人拿到的概率](http://blog.csdn.net/huntinux/article/details/16844941)
-
-## 面经
-[面试题干货在此 ](https://www.nowcoder.com/discuss/57978?type=0&order=0&pos=24&page=1)
-
-[如何学好 Linux、C++，并搞定 BAT 面试](http://gitbook.cn/books/59c332b1a9dfc23551ebfa4a/index.html)
-
-## select poll epoll
-![xx](http://img.blog.csdn.net/20160422143642896)
-
-## 同步与异步 阻塞与非阻塞
-同步和异步关注的是消息通信机制 (synchronous communication/ asynchronous communication)
-
-所谓同步，就是在发出一个`调用`时，在没有得到结果之前，该`调用`就不返回。但是一旦调用返回，就得到返回值了。换句话说，就是由`调用者`主动等待这个`调用`的结果。而异步则是相反，`调用`在发出之后，这个调用就直接返回了，所以没有返回结果。换句话说，当一个异步过程调用发出后，调用者不会立刻得到结果。而是在`调用`发出后，`被调用者`通过状态、通知来通知调用者，或通过回调函数处理这个调用。
-
-阻塞和非阻塞关注的是程序在等待调用结果（消息，返回值）时的状态
-
-阻塞调用是指调用结果返回之前，当前线程会被挂起。调用线程只有在得到结果之后才会返回。
-非阻塞调用指在不能立刻得到结果之前，该调用不会阻塞当前线程。
-
-![xx](http://static.zybuluo.com/zhenlanghuo/aal4brj3okthdticuenp4vco/5%E7%A7%8DIO%E6%A8%A1%E5%9E%8B%E6%AF%94%E8%BE%83.png)
-
-在处理 IO 的时候，阻塞和非阻塞都是同步 IO。只有使用了特殊的 API 才是异步 IO。
-![xx](https://pic4.zhimg.com/80/7d3eb389b7724878bd7e12ebc6dbcdb5_hd.jpg)
-
-[并发模型](https://github.com/linw7/TKeed/blob/master/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B.md)
-
-## 消息队列应用场景
-异步：用户注册后，需要发注册邮件和注册短信。用户的响应时间相当于是注册信息写入数据库的时间。注册邮件，发送短信写入消息队列后，直接返回
-
-解耦：用户下单后，订单系统需要通知库存系统。传统模式假如库存系统无法访问，则订单减库存将失败，从而导致订单失败
-* 订单系统：用户下单后，订单系统完成持久化处理，将消息写入消息队列，返回用户订单下单成功。
-* 库存系统：订阅下单的消息，采用拉/推的方式，获取下单信息，库存系统根据下单信息，进行库存操作。
-* 假如：在下单时库存系统不能正常使用。也不影响正常下单，因为下单后，订单系统写入消息队列就不再关心其他的后续操作了。实现订单系统与库存系统的应用解耦。
-
-流量削锋：一般在秒杀或团抢活动中使用广泛，秒杀活动，一般会因为流量过大，导致流量暴增，应用挂掉。为解决这个问题，一般需要在应用前端加入消息队列
-1. 可以控制活动的人数；
-2. 可以缓解短时间内高流量压垮应用；
-3. 用户的请求，服务器接收后，首先写入消息队列。假如消息队列长度超过最大数量，则直接抛弃用户请求或跳转到错误页面；
-4. 秒杀业务根据消息队列中的请求信息，再做后续处理
-
-日志处理：日志处理是指将消息队列用在日志处理中，比如Kafka的应用，解决大量日志传输的问题。
-* 日志采集客户端，负责日志数据采集，定时写受写入Kafka队列；
-* Kafka消息队列，负责日志数据的接收，存储和转发；
-* 日志处理应用：订阅并消费kafka队列中的日志数据
-
-消息通讯：比如实现点对点消息队列，或者聊天室等
-* 点对点通讯：客户端A和客户端B使用同一队列，进行消息通讯。
-* 聊天室通讯：客户端A，客户端B，客户端N订阅同一主题，进行消息发布和接收。实现类似聊天室效果。
-以上实际是消息队列的两种消息模式，点对点或发布订阅模式。
-
-## 分布式Session共享解决方案
-session往往隐含着面向连接和保持状态这样两个含义
-
-1、session复制
-session复制是早期的企业级的使用比较多的一种服务器集群session管理机制。应用服务器开启web容器的session复制功能，在集群中的几台服务器之间同步session对象，使得每台服务器上都保存所有的session信息，这样任何一台宕机都不会导致session的数据丢失，服务器使用session时，直接从本地获取。
-这种方式在应用集群达到数千台的时候，就会出现瓶颈，每台都需要备份session，出现内存不够用的情况。
-
-2、session绑定
-利用hash算法，比如nginx的ip_hash,使得同一个Ip的请求分发到同一台服务器上。
-这种方式不符合对系统的高可用要求，因为一旦某台服务器宕机，那么该机器上的session也就不复存在了，用户请求切换到其他机器后么有session，无法完成业务处理。
-
-3、利用cookie记录session
-session记录在客户端，每次请求服务器的时候，将session放在请求中发送给服务器，服务器处理完请求后再将修改后的session响应给客户端。这里的客户端就是cookie。
-利用cookie记录session的也有缺点，比如受cookie大小的限制，能记录的信息有限；每次请求响应都需要传递cookie，影响性能，如果用户关闭cookie，访问就不正常。但是由于
-cookie的简单易用，可用性高，支持应用服务器的线性伸缩，而大部分要记录的session信息比较小，因此事实上，许多网站或多或少的在使用cookie记录session。
-
-4、session服务器
-session服务器可以解决上面的所有的问题，利用独立部署的session服务器（集群）统一管理session，服务器每次读写session时，都访问session服务器。
-这种解决方案事实上是应用服务器的状态分离，分为无状态的应用服务器和有状态的session服务器，然后针对这两种服务器的不同特性分别设计架构。
-对于有状态的session服务器，一种比较简单的方法是利用分布式缓存（memcached), 数据库等。在这些产品的基础上进行包装，使其符合session的存储和访问要求。
-如果业务场景对session管理有比较高的要求，比如利用session服务基层单点登录（sso),用户服务器等功能，需要开发专门的session服务管理平台。
-
-## 数据库
-[mysql中key 、primary key 、unique key 与index区别](http://blog.csdn.net/nanamasuda/article/details/52543177)
-
-## nginx redis
-[redis,nginx相关面试](http://blog.csdn.net/qq_29108585/article/details/67074435)
-
-[nginx面试要点--持续更新中](http://blog.csdn.net/watson2016/article/details/77938678)
-
-[Nginx和Apache有什么区别](https://www.cnblogs.com/wt645631686/p/7572981.html)
-
-[nginx 使用过程中一些基础性问题总结](https://www.cnblogs.com/qiuyan/p/4186435.html)
-
-[高性能高并发 面试](https://www.cnblogs.com/heartstage/p/3415584.html)
-
-[Redis面试题及分布式集群](http://blog.csdn.net/yajlv/article/details/73467865)
-
-[Redis的那些最常见面试问题](https://www.cnblogs.com/Survivalist/p/8119891.html)
-
-[redis面试总结](https://www.cnblogs.com/jiahaoJAVA/p/6244278.html)
-
-[缓存技术PK：选择Memcached还是Redis](http://blog.csdn.net/sosfnima/article/details/51993181)
-
-## 分布式
-map-reduce之所以有效是基于两个哲学（1）大而化小 和 （2） 异而化同。 这两个应对了大数据中的volume和variety挑战。 
-
-ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。它是一个为分布式应用提供一致性服务的软件，提供的功能包括：配置维护、域名服务、分布式同步、组服务等。
-
-zookeeper是一个为分布式应用提供一致性服务的软件，它内部是一个分层的文件系统目录树结构，规定统一个目录下只能有一个唯一文件名。
-
-Zookeeper 和 Chubby .他俩都是分布式选举算法的封装，用来解决分布式下的数据一致性问题，c是paxos的完全实现，z少有偏差。锁的问题，c肯定会用起来方便一点，z也有相应的办法可以实现。c没有开源具体怎么不太清楚，z用的比较多。
-
-YARN是开源项目Hadoop的一个资源管理系统，最初设计是为了解决Hadoop中MapReduce计算框架中的资源管理问题，但是现在它已经是一个更加通用的资源管理系统，可以把MapReduce计算框架作为一个应用程序运行在YARN系统之上，通过YARN来管理资源。
-
-![xx](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=f1e638059b2397ddc274905638ebd9d2/d53f8794a4c27d1e46c53a2611d5ad6edcc43874.jpg)
-
-![xx](http://dubbo.io/images//dubbo-architecture.png)
-
-dubbo是用来跨系统通信的，即使不用集群也可以。一个系统用作客户端，一个系统则充当服务端。服务端要把自己的接口定义提供给客户端，客户端将接口定义在spring中的bean。客户端可以直接使用这个bean，就好像这些接口的实现也是在自己代码里一样。客户端和服务端启动的时候都会把自己的机器IP注册到zookeeper上。客户端会把zk上的服务端ip拉到磁盘上，并记录哪些ip提供哪些服务（服务端启动的时候暴露给zk）。然后调用的时候客户端会根据ip调用服务端的服务，这时候即使zk挂掉也没关系。 `rpc+zookeeper`
-
-假设某商城有一个商品库存剩10个，用户A想要买6个，用户B想要买5个，在理想状态下，用户A先买走了6了，库存减少6个还剩4个，此时用户B应该无法购买5个，给出数量不足的提示；而在真实情况下，用户A和B同时获取到商品剩10个，A买走6个，在A更新库存之前，B又买走了5个，此时B更新库存，商品还剩5个，这就是典型的电商“秒杀”活动。
-
-分布式锁需要具备哪些条件
-
-1. 获取锁和释放锁的性能要好
-
-2. 判断是否获得锁必须是原子性的，否则可能导致多个请求都获取到锁
-
-3. 网络中断或宕机无法释放锁时，锁必须被清除，不然会发生死锁
-
-4. 可重入一个线程中可以多次获取同一把锁，比如一个线程在执行一个带锁的方法，该方法中又调用了另一个需要相同锁的方法，则该线程可以直接执行调用的方法，而无需重新获得锁；
-
-5. 阻塞锁和非阻塞锁，阻塞锁即没有获取到锁，则继续等待获取锁；非阻塞锁即没有获取到锁后，不继续等待，直接返回锁失败。
-
-什么是锁
-
-1. 在单进程的系统中，当存在多个线程可以同时改变某个变量（可变共享变量）时，就需要对变量或代码块做同步，使其在修改这种变量时能够线性执行消除并发修改变量。
-
-2. 而同步的本质是通过锁来实现的。为了实现多个线程在一个时刻同一个代码块只能有一个线程可执行，那么需要在某个地方做个标记，这个标记必须每个线程都能看到，当标记不存在时可以设置该标记，其余后续线程发现已经有标记了则等待拥有标记的线程结束同步代码块取消标记后再去尝试设置标记。这个标记可以理解为锁。
-
-3. 不同地方实现锁的方式也不一样，只要能满足所有线程都能看得到标记即可。如java中synchronize是在对象头设置标记，Lock接口的实现类基本上都只是某一个volitile修饰的int型变量其保证灭个线程都能拥有对该int的可见性和原子修改，linux内核中也是利用互斥量或信号量等内存数据做标记。
-
-4. 除了利用内存数据做锁其实任何互斥的都能做锁（只考虑互斥情况），如流水表中流水号与时间结合做幂等校验可以看作是一个不会释放的锁，或者使用某个文件是否存在作为锁等。只需要满足在对标记进行修改能保证原子性和内存可见性即可。
-
-[分布式锁的几种实现方式](http://www.hollischuang.com/archives/1716)
-
-[阿里面试_技术问题和经验总结](https://www.cnblogs.com/zhangshiwen/p/5788467.html)
-
-[对于Zookeeper一些面试题自己的答案](https://www.toutiao.com/i6446291810334540301/)
-
-[百度正式开源其RPC框架brpc](https://segmentfault.com/a/1190000011407840)
-
-[小米和京东的4道关于Dubbo、Zookeeper等的面试题，并有答案分享](https://www.phpyuan.com/233408.html)
-
-[年底啦，java后台面试题整理](https://www.jianshu.com/p/f5dee1306d0d)
-
-[Dubbo分布式服务框架入门（附工程）](http://www.importnew.com/19732.html)
-
-## 最小生成树
-边有权值的代价最小的连通子图
-
-`Kruskal算法` 加边法
-![xx](http://img.blog.csdn.net/20160714144315409)
-
-`Prim算法` 加点法
-![xx](http://img.blog.csdn.net/20160714161107576)
-
-
-## 其他
-[腾讯七大事业群](http://blog.csdn.net/junbujianwpl/article/details/52832094)
+[shell脚本抽取制定字符串、grep+awk+cut+sed](http://blog.csdn.net/z

@@ -9,6 +9,14 @@
 ## 内存碎片
 内碎片是已被分配出去但是用不到的内存空间，外碎片是由于大小太小而无法分配出去的空闲块
 
+## 类型转换
+```c++
+static_cast 基本类型转换，且基类指针转派生类没有类型安全检查
+dynamic_cast 主要用于类层次间的上行转换和下行转换，还可以用于类之间的交叉转换。在类层次间进行上行转换时，dynamic_cast和static_cast的效果是一样的；在进行下行转换时，dynamic_cast具有类型检查的功能，比static_cast更安全。
+reinterpret_cast用在任意指针（或引用）类型之间的转换
+该运算符用来修改类型的const或volatile属性
+```
+
 ## RTTI
 RTTI（Run-Time Type Identification) 运行时类型识别。
 

@@ -78,6 +78,14 @@ class String
     std::swap(data_, rhs.data_);
   }
  
+  friend ostream& operator<<(ostream& o,const String& str);//重载输出  
+ 
  private:
   char* data_;
 };
+
+ostream& operator<< (ostream &o, const String &str)  
+{  
+    o << str.data_;  
+    return o;  
+}  
